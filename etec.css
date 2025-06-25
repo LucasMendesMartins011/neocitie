@@ -1,0 +1,54 @@
+body {
+    overflow: hidden;
+}
+
+.img1 {
+    position: absolute;
+    top: 3%;
+    left: 5%;
+    width: 50%;
+}
+
+.img3 {
+    position: absolute;
+    top: 3%;
+    left: 65%;
+    width: 28%;
+    z-index: 111;
+}
+
+.img4 {
+    position: absolute;
+    top: 28%;
+    left: 8%;
+    width: 45%;
+}
+
+.container {
+    position: absolute;
+    top: 20%;
+    left: 71.5%;
+    width: 17%;
+    height: 58vh;
+    z-index: 999;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.container video {
+    width: 80%;
+}
+
+.container2 {
+    position: absolute;
+    top: 85%;
+    left: 77%;
+    width: 3%;
+    height: 7vh;
+    z-index: 999;
+}
+
+.container2 a {
+    color: #e685b8;
+    text-decoration: none;
+}

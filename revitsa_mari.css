@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.retangulo_containrer {
+    margin: auto;
+    width: 90%;
+    height: 60vh;
+    border: 1px solid #b4ebff;
+    position: relative;
+}
+
+/* retangulo rosa inicio */
+.retangulo {
+    margin: auto;
+    margin-top: 7%;
+    width: 80%;
+    height: 70%;
+    background: linear-gradient(to bottom, #ff90e0, #ff9ac4);
+    border-radius: 5px;
+    border: #bd519f solid 3px;
+}
+
+/* capricho logo */
+.capricho_logo img {
+    position: absolute;
+    z-index: 1;
+    width: 45%;
+    height: auto;
+    top: 1%;
+    left: 6%;
+}
+
+/* login pesquisar feedbcak */
+.login img {
+    width: 50%;
+    height: auto;
+    margin-left: 50%;
+}
+
+/* dia */
+.dia img {
+    position: absolute;
+    z-index: 1;
+    width: 30%;
+    height: auto;
+    top: 40%;
+    left: 10%;
+}
+
+/* navegaçao */
+
+.botoesg {
+    display: flex;
+    flex-direction: row;
+    z-index: 7;
+    left: 10%;
+    top: 35%;
+    position: absolute;
+}
+
+.botoesg img{
+    width: 14.5%;
+    height: auto;
+    transition: 0.6s ease;
+}
+
+.botoesg img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+    filter: brightness(1.1);
+}
+
+.imagem_circulo img {
+    position: absolute;
+    width: 72%;
+    height: auto;
+    z-index: 8;
+    top: 40%;
+    transform: translateX(19.4%);
+    
+}
+
+.catalogo_containrer {
+    margin: auto;
+    width: 72.1%;
+    height: 105vh;
+    position: relative;
+    z-index: 7;
+    top: 10%;
+    background: linear-gradient(to bottom, #fffceb, #ffe3c9);
+    border: #fffceb solid 4px;
+}
+
+.b {
+    margin: auto;
+    width: 72.1%;
+    height: 10vh;
+    position: relative;
+    z-index: 9;
+    top: 10%;
+}
+
+.catalogo_containrer {
+    margin: auto;
+    width: 72.1%;
+    height: 105vh;
+    position: relative;
+    z-index: 7;
+    top: 10%;
+    background: linear-gradient(to bottom, #fffceb, #ffe3c9);
+    border: #fffceb solid 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 2vh;
+}
+
+.revistaq {
+    margin: auto;
+    width: 70%;
+    height: 1000%;
+    border-radius: 4px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.revistaq img{
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+    width: 70%;
+    height: auto;
+    display: inline-block;
+}
+
+.b {
+    margin: auto;
+    width: 72.1%;
+    height: 10vh;
+    position: relative;
+    z-index: 9;
+    top: 10%;
+}
+
+.seta img{
+    position: absolute;
+    top: 47%;
+    left: 20%;
+    z-index: 999;
+}

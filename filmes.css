@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-image: url(img/fundo\ terror.jpg);
+  background-size: 100% 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+}
+
+.banana {
+  position: absolute;
+  top: 16%;
+  left: 8%;
+  width: 10%; 
+  height: 10%;
+  -webkit-filter: drop-shadow(5px 10px 10px rgb(255, 255, 255,.5));
+  filter: drop-shadow(5px 10px 10px rgb(255, 255, 255,.5));
+  transform: rotate(-8deg);
+}
+
+.banana img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.banana .hover {
+  opacity: 0;
+}
+
+.banana:hover .hover {
+  opacity: 1;
+}
+
+.biblia {
+  position: absolute;
+  top: 40%;    
+  left: 40%;  
+  width: 20%;
+  height: 20%;
+  -webkit-filter: drop-shadow(5px 10px 10px rgb(255, 255, 255, 0.5));
+  filter: drop-shadow(5px 10px 10px rgb(255, 255, 255, 0.5));
+  transform: rotate(8deg); 
+}
+
+.biblia img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.biblia .hover {
+  opacity: 0;
+}
+
+.biblia:hover .hover {
+  opacity: 1;
+}
+
+.olho {
+  position: absolute;
+  top: 16%;    
+  left: 80%;  
+  width: 11%;
+  height: 11%;
+  -webkit-filter: drop-shadow(5px 10px 10px rgb(255, 255, 255, 0.5));
+  filter: drop-shadow(5px 10px 10px rgb(255, 255, 255, 0.5));
+  transform: rotate(19deg); 
+}
+
+.olho img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.olho .hover {
+  opacity: 0;
+}
+
+.olho:hover .hover {
+  opacity: 1;
+}
+
+.flor {
+  position: absolute;
+  top: 70%;    
+  left: 8%;  
+  width: 20%;
+  height: 20%;
+  -webkit-filter: drop-shadow(5px 10px 10px rgb(255, 255, 255, 0.5));
+  filter: drop-shadow(5px 10px 10px rgb(255, 255, 255, 0.5));
+  transform: rotate(19deg); 
+}
+
+.flor img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.flor .hover {
+  opacity: 0;
+}
+
+.flor:hover .hover {
+  opacity: 1;
+}
+
+.telefone {
+  position: absolute;
+  top: 70%;    
+  left: 70%;  
+  width: 20%;
+  height: 20%;
+  -webkit-filter: drop-shadow(5px 10px 10px rgb(255, 255, 255, 0.5));
+  filter: drop-shadow(5px 10px 10px rgb(255, 255, 255, 0.5));
+  transform: rotate(19deg); 
+}
+
+.telefone img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.telefone .hover {
+  opacity: 0;
+}
+
+.telefone:hover .hover {
+  opacity: 1;
+}
+
+.gato{
+  -webkit-filter: drop-shadow(5px 10px 10px rgb(255, 255, 255, 0.5));
+  filter: drop-shadow(5px 10px 10px rgb(255, 255, 255, 0.5));
+}
+
+
+
+
+

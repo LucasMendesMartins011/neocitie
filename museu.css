@@ -1,0 +1,150 @@
+body{
+    overflow-y: hidden;
+}
+
+.quadrado_apresentaçao {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border: 4px solid#ffc9d5;
+    width: 12%;
+    height: 55vh;
+    top: 40%;
+    left: 15%;
+}
+
+.quadrado_apresentaçao p {
+  font-family: "Fascinate", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 150%;
+  color: #9A6871;
+}
+
+
+.umano {
+    position: absolute;
+    top: 8%;
+    left: 35%;
+}
+
+.umano img {
+    width: 65%;
+    height: 65%;
+    -webkit-filter: drop-shadow(5px 10px 10px rgba(255, 219, 253, 0.575));
+    filter: drop-shadow(5px 10px 10px rgba(255, 219, 253, 0.575));
+    transform: rotate(-3deg);
+}
+
+.tresano {
+    position: absolute;
+    top: 40%;
+    left: 65%;
+}
+
+.tresano img {
+    width: 80%;
+    height: 80%;
+    -webkit-filter: drop-shadow(5px 10px 10px rgba(255, 219, 253, 0.575));
+    filter: drop-shadow(5px 10px 10px rgb(255, 255, 255,.5));
+    transform: rotate(2deg);
+}
+
+.doismile {
+    position: absolute;
+    top: 15%;
+    left: 100%;
+}
+
+.doismile img {
+    width: 120%;
+    height: 120%;
+    -webkit-filter: drop-shadow(5px 10px 10px rgba(255, 219, 253, 0.575));
+    filter: drop-shadow(5px 10px 10px rgb(255, 255, 255,.5));
+    transform: rotate(-2deg);
+}
+
+.dezessete {
+    position: absolute;
+    top: 28%;
+    left: 135%;
+}
+
+.dezessete img {
+    width: 65%;
+    height: 65%;
+    -webkit-filter: drop-shadow(5px 10px 10px rgba(255, 219, 253, 0.575));
+    filter: drop-shadow(5px 10px 10px rgba(255, 219, 253, 0.575));
+    transform: rotate(2deg);
+}
+
+.vinte {
+    position: absolute;
+    top: 13%;
+    left: 162%;
+}
+
+.vinte img {
+    width: 85%;
+    height: 85%;
+    -webkit-filter: drop-shadow(5px 10px 10px rgba(255, 219, 253, 0.575));
+    filter: drop-shadow(5px 10px 10px rgba(255, 219, 253, 0.575));
+    transform: rotate(-1deg);
+}
+
+.garganta {
+    position: absolute;
+    top: 20%;
+    left: 195%;
+}
+
+.garganta img {
+    width: 75%;
+    height: 75%;
+    -webkit-filter: drop-shadow(5px 10px 10px rgba(255, 219, 253, 0.575));
+    filter: drop-shadow(5px 10px 10px rgba(255, 219, 253, 0.575));
+    transform: rotate(2deg);
+}
+
+.vintetres {
+    position: absolute;
+    top: 15%;
+    left: 225%;
+}
+
+.vintetres img {
+    width: 75%;
+    height: 75%;
+    -webkit-filter: drop-shadow(5px 10px 10px rgba(255, 219, 253, 0.575));
+    filter: drop-shadow(5px 10px 10px rgba(255, 219, 253, 0.575));
+    transform: rotate(-2deg);
+}
+
+.vinteq {
+    position: absolute;
+    top: 20%;
+    left: 255%;
+}
+
+.vinteq img {
+    width: 75%;
+    height: 75%;
+    -webkit-filter: drop-shadow(5px 10px 10px rgba(255, 219, 253, 0.575));
+    filter: drop-shadow(5px 10px 10px rgba(255, 219, 253, 0.575));
+    transform: rotate(2deg);
+}
+
+.texto  {
+  font-size: 200%;
+  color: #9A6871;
+  margin: auto;
+}
+
+.quadrado_voltar {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border: 4px solid #ffc9d5;
+    width: 5%;
+    height: 5vh;
+    top: 1%;
+    left: 285%;
+}

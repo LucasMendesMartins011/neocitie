@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-image: url(img/fundoessecarto.jpg);
+  background-size: 100% 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+}
+
+
+
+.espelho img {
+    width: 13.5%;
+    height: auto;
+    margin-top: 12.5%;
+    margin-left: 43%;
+    transition: ease 0.5s;
+    cursor: pointer;
+}
+
+.espelho img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    filter: brightness(1.1);
+    filter: drop-shadow(0 0 2px #f8175a);
+}
+
+.volante img {
+    width: 6%;
+    height: auto;
+    margin-top: 12.4%;
+    margin-left: 22.8%;
+    transition: ease 0.5s;
+    cursor: pointer;
+}
+
+.volante img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    filter: brightness(1.1);
+    filter: drop-shadow(0 0 2px #f8175a);
+}
+
+.porta img {
+    width: 10.5%;
+    height: auto;
+    position: absolute;
+    top: 20.4%;
+    left: 89.4%;
+    transition: ease 0.5s;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.porta img:hover {
+    filter: brightness(1.1);
+    filter: drop-shadow(0 0 15px #f8175a);
+}
+
+

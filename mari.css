@@ -1,0 +1,205 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-image: url(img/a\ fundo\ win\ rosa\ win.png);
+  background-size: 100% 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+}
+
+.caixa_inicio {
+  background-color: #f3c1d7;
+  position: relative;
+  width: 30%;
+  height: 50%;
+  margin: 1%;
+  border: 4px solid #a34a81;
+  left: 30%;
+  top: 4%;
+}
+
+.caixa_botoes {
+   background-color: #f3c1d7;
+  position: absolute;
+  width: 11%;
+  height: 60%;
+  margin: 1%;
+  border: 4px solid #a34a81;
+  left: 61%;
+  top: 4%;
+}
+
+.caixa_topo1 {
+  position: absolute;
+  background-color: #a34a81;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  width: 97%;
+  height: 10%;
+  margin: 1%;
+  left: 0.40%; 
+}
+
+.texto_pixel font {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 120%;
+}
+
+.borda {
+    margin: 0.55%;
+}
+
+.caixa_topo2 {
+  position: absolute;
+  background-color: #a34a81;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  width: 97%;
+  height: 5.5%;
+  margin: 1%;
+  left: 0.40%; 
+}
+
+.borda1 {
+    margin: 1%;
+}
+
+.mari_inicio img {
+  width: 52%;
+  height: 80%;
+  position: absolute;
+  top: 15%;
+}
+
+.bem_vindo {
+  position: absolute;
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 220%;
+  color: #a34a81;
+  top: 15%;
+  left: 50%;
+}
+
+.texto_inicio {
+  position: absolute;
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 120%;
+  top: 30%;
+  left: 50%;
+}
+
+.d_gato img {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  top: 47%;
+  left: 45%;
+}
+
+.caixa_jimin {
+  background-color: #f3c1d7;
+  position: absolute;
+  width: 14%;
+  height: 29%;
+  margin: 1%;
+  border: 4px solid #a34a81;
+  left: 46%;
+  top: 57%;
+}
+
+.caixa_topo3 {
+  position: absolute;
+  background-color: #a34a81;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  width: 97%;
+  height: 9%;
+  margin: 1%;
+  left: 0.40%; 
+}
+
+.sombra {
+  filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.5));
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.sombra:hover {
+  background-color: rgba(255, 192, 203, 0.4);
+  border-radius: 2px;
+}
+
+.alinhamento_icons1 {
+  position: absolute;
+  top: 1%;
+  left: 1%;
+}
+
+.texto_icon {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #f3c1d7;
+}
+
+.b_power {
+  position: absolute;
+  top: 96%;
+  left: 1%;
+  width: 3vw; 
+  height: 3vw;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  box-sizing: border-box;
+}
+
+.alinhamento_icons2 {
+  position: absolute;
+  top: 13%;
+  left: 1%;
+}
+
+.alinhamento_icons3 {
+  position: absolute;
+  top: 25%;
+  left: 1%;
+}
+
+.alinhamento_icons4 {
+  position: absolute;
+  top: 37%;
+  left: 1%;
+}
+
+.alinhamento_icons5 {
+  position: absolute;
+  top: 1%;
+  left: 7%;
+}
+
+.alinhamento_icons6 {
+  position: absolute;
+  top: 1%;
+  left: 7%;
+}
+
