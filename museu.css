@@ -1,13 +1,9 @@
-body{
-    overflow-y: hidden;
-}
-
 .quadrado_apresentaçao {
     position: absolute;
     background-color: rgb(255, 255, 255);
     border: 4px solid#ffc9d5;
     width: 12%;
-    height: 55vh;
+    height: 40vh;
     top: 40%;
     left: 15%;
 }
@@ -65,7 +61,7 @@ body{
 
 .dezessete {
     position: absolute;
-    top: 28%;
+    top: 34%;
     left: 135%;
 }
 
@@ -93,7 +89,7 @@ body{
 
 .garganta {
     position: absolute;
-    top: 20%;
+    top: 30%;
     left: 195%;
 }
 
@@ -121,7 +117,7 @@ body{
 
 .vinteq {
     position: absolute;
-    top: 20%;
+    top: 32%;
     left: 255%;
 }
 

@@ -35,6 +35,14 @@ body {
     overflow-x: hidden;
 }
 
+.container p {
+  font-family: "Henny Penny", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: #e685b8;
+  font-size: 20px;
+}
+
 .container video {
     width: 80%;
 }
